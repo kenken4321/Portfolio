@@ -25,58 +25,68 @@
         nav a{
             color: white;
             font-size: 20px;
-            padding: 3px;
+            margin-left: 20px;
             text-decoration: none;
         }
         .front{
             padding-top: 80px;
             padding-bottom: 80px;
-            border: solid;
         }
         .front h1{
-            margin-left: 43%;
+            text-align: center;
             }
         .front p{
-            margin-left: 48%;
+            text-align: center;
             }
         .mid {
             display: flex;
         }
-        .projects {
+        .midd {
+            background-color: rgb(65, 65, 125);
+            border-radius: 2px;
+            color: white;
+            margin: 10px;
+        }
+        #projects {
             flex: 1;
             padding: 20px;
-            border: solid white;
         }
-        .projects a {
+        #projects a {
             display: block;
             text-decoration: none;
             color: white;
             font-size: 20px;
             margin-bottom: 10px;
         }
-        .exp {
+        #exp {
             flex: 2;
             padding: 20px;
-            border: solid white;
         }
-        .opensource {
+        #opensource {
             flex: 1;
             padding: 20px;
-            border: solid white;
         }
-        .edu {
+        #opensource a{
+            text-decoration: none;
+            color: white;
+        }
+        #edu {
             flex: 1;
             padding: 20px;
-            border: solid white;
         }
         .below{
-            padding: 20px;
-            border: solid;
+            text-align: center;
+        }
+        .below h2{
+            text-align: center;
         }
         .box{
             display: inline-block;
-            border: solid white;
+            background-color: rgb(65, 65, 125);
+            border-radius: 2px;
+            color: white;
             margin-right: 10px;
+            margin-bottom: 20px;
             padding: 20px;
         }
         .box h3{
@@ -108,26 +118,26 @@
         </header>
         <main>
             <section class = "front">
-                <h1>Sofware Developer</h1>
-                <p>Ken V. Avenis</p>
+                <h1>Hi! I'm Ken</h1>
+                <p>and still learning inside IT industry.</p>
             </section>
             <section class = "mid">
-                <section class = "projects">
+                <section class = "midd" id = "projects">
                     <h2>Projects</h2>
                     <a href = "index.html">Portfolio</a>
                     <a href = "https://anthropotato.itch.io/dodgeit-dash" target = "_blank">Dodge It Dash 0.1</a>
                     <a href = "https://anthropotato.itch.io/dodgeit-dash" target = "_blank">Dodge It Dash 0.5 (Upcoming)</a>
                 </section>
-                <section class = "exp">
+                <section class = "midd" id = "exp">
                     <h2>Digiflash Corporation</h2>
                     <p>IT Trainee</p>
                 </section>
-                <section class = "opensource">
+                <section class = "midd" id = "opensource">
                     <h2>Github</h2>
                     <p>Made 5+ opensource projects.</p>
                     <a href = "https://github.com/kenken4321" target = "_blank">Visit my Github Profile</a>
                 </section>
-                <section class = "edu">
+                <section class = "midd" id = "edu">
                     <h2>Education</h2>
                     <p>Currently enrolled in Polytechnic University of the Philippines (PUP) taking Bachelor of Science in Computer Science.</p>
                     <br>
